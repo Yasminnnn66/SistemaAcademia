@@ -81,7 +81,7 @@ public final class Tema {
         return b;
     }
 
-    /** Botão de ação de risco (vermelho) — usado para Excluir, Cancelar. */
+    /** Botão de ação de risco (vermelho)*/
     public static JButton botaoPerigo(String texto) {
         BotaoArredondado b = new BotaoArredondado(texto, VERMELHO_ALERTA, new Color(0xB8, 0x27, 0x2E), Color.WHITE);
         b.setFont(FONTE_BOTAO);
@@ -129,7 +129,6 @@ public final class Tema {
         return painel;
     }
 
-    /** Aplica um título de seção padronizado (usado em cards e painéis de formulário). */
     public static JLabel tituloSecao(String texto) {
         JLabel label = new JLabel(texto);
         label.setFont(FONTE_SUBTITULO);
@@ -140,7 +139,6 @@ public final class Tema {
 
     // Componentes internos
 
-    /** Borda customizada com cantos arredondados e cor de contorno suave. */
     public static class BordaArredondada extends AbstractBorder {
         private final int raio;
         private final Color cor;
@@ -166,7 +164,6 @@ public final class Tema {
         }
     }
 
-    /** Botão com cantos arredondados, sem o retângulo padrão do Swing, com efeito hover. */
     public static class BotaoArredondado extends JButton {
         private final Color corBase;
         private final Color corHover;

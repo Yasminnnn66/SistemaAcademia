@@ -37,7 +37,7 @@ public class TelaPrincipal extends JFrame {
         topo.setBackground(Tema.PRETO_GRAFITE);
         topo.setBorder(BorderFactory.createEmptyBorder(28, 30, 28, 30));
 
-        JLabel selo = new JLabel("\u25CF ACADEMIA");
+        JLabel selo = new JLabel("\u25CF GymSync");
         selo.setForeground(Tema.LARANJA);
         selo.setFont(new Font("SansSerif", Font.BOLD, 13));
 
